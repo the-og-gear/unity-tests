@@ -18,8 +18,8 @@ public class CharController : MonoBehaviour
 
     // Head rotation
     public Transform head;
-    public float maxHeadRotation = 80.0f;
-    public float minHeadRotation = -80.0f;
+    private float maxHeadRotation = 80.0f;
+    private float minHeadRotation = -80.0f;
     private float currentHeadRotation = 0;
 
     // Jumping
@@ -77,11 +77,6 @@ public class CharController : MonoBehaviour
             }
         }
 
-        void OnControllerColliderHit (ControllerColliderHit hit)
-        {
-            hitNormal = hit.normal;
-        }
-
         // Handle unlocking the cursor + exiting the application
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -96,5 +91,10 @@ public class CharController : MonoBehaviour
             }
             isPaused = !isPaused;
         }
+    }
+
+    void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        hitNormal = hit.normal;
     }
 }

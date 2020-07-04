@@ -1084,8 +1084,6 @@ MonoBehaviour:
   rotationSpeed: 2
   slideFriction: 0.3
   head: {fileID: 1505611704}
-  maxHeadRotation: 80
-  minHeadRotation: -80
   jumpSpeed: 15
   gravity: 30
 --- !u!143 &421112354
@@ -1506,7 +1504,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh18086
+  m_Name: pb_Mesh13944
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2793,7 +2791,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh18144
+  m_Name: pb_Mesh14002
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
